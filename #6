@@ -1,0 +1,12 @@
+Python 3.8.0 (tags/v3.8.0:fa919fd, Oct 14 2019, 19:21:23) [MSC v.1916 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> nx = input("Введите число x")
+Введите число x 15
+>>> nx = int(nx)
+>>> ny = input("Введите число y")
+Введите число y 17
+>>> ny = int(ny)
+>>> if nx == 0 or ny == 0:
+	print("Значения не должны быть равны 0,проверьте данные" )
+ else: Z = 1/(nx*ny)
+>>> print("Значение функции = ",Z)
