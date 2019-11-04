@@ -10,6 +10,3 @@ Number:37
 	
 >>> if A % 10  == 0:
 	print("The number is a multiple of 10")
-
-	
->>> 
