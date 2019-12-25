@@ -1,4 +1,7 @@
-imprt random
+Дан одномерный массив числовых значений, насчитывающий N элементов. 
+Выполнить перемещение элементов массива по кругу вправо, т. е. A[1] → A[2]; A[2] → A[3]; ... A[n] → A[1].
+
+import random
 N=random.randint(1,20)
 arr=[random.randint(0,100) for i in range(N)]
 print(arr)
