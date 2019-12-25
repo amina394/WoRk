@@ -1,7 +1,6 @@
 Дан одномерный массив числовых значений, насчитывающий N элементов.
 Поменять местами группу из M элементов, начинающихся с позиции K с группой из M элементов, начинающихся с позиции P.
-Python 3.8.0 (tags/v3.8.0:fa919fd, Oct 14 2019, 19:21:23) [MSC v.1916 32 bit (Intel)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
+
 >>> import random
 >>> M= random.randint(1,5)
 >>> K= random.randint(1,5)
