@@ -2,3 +2,26 @@
 Подсчитать количество слагаемых и количество сомножителей. 
 При вводе числа 55555 закончить работу.
 
+import random
+M=random.randint(1,4)
+arr=[random.randint(1,10) for i in range (M)]
+a=1
+b=0
+n=0
+m=0
+for i in range(M):
+    arr[i]=input()
+for i in range(M):
+    if int(arr[i])==55555:
+        print("end")
+        break
+    elif i%2==0:
+        a*=int(arr[i])
+        n+=1
+    elif i%2 !=0:
+        b +=int(arr[i])
+        m+=1
+print("сумму чиселс нечетными номерами:"+str(b))
+print("произведение чисел с четными номерами: "+str(a))
+print("количество слагаемых: "+str(m))
+print("количество сомножителей: "+str(n))
