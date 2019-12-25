@@ -1,3 +1,6 @@
+Дано вещественное число A. Вычислить f(A), если f(x) = 0, при x ≤ 0; f(x) = x при 0 < x < 1, в противном случае f(x) = x4.
+
+
 import random
 A = random.uniform(-3,3)
 print("A= " + str(A))
